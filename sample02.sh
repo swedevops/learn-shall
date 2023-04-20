@@ -1,4 +1,4 @@
-A=$(realpath "$0")
+script=$(realpath "$0")
 echo $A
-script_path=$(dirname "$script")
+script_path=$(dirname "script")
 echo $script_path
