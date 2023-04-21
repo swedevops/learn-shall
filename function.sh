@@ -1,3 +1,3 @@
-function_name (){
+function_name() {
   echo hello world
 }
