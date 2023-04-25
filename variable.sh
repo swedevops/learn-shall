@@ -1,5 +1,5 @@
 
-echo script_name =   $0
+echo script name =   $0
 ech first argument = $1
 ech second argument = $2
 ech all arguments = $*
