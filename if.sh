@@ -1,6 +1,6 @@
 fruitname=$1
 quantity=$2
-
+# -z stands for expression is empty
 if [ -z "$fruitname" ]
 then
   echo input missing
