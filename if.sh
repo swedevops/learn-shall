@@ -1,6 +1,6 @@
 fruitname=$1
 quantity=$2
-if [ "$fruitname"=="mango"]
+if [ "$fruitname"=="mango" ]
 then
   echo Mango Quantity - $quantity
   else
