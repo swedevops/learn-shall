@@ -7,3 +7,10 @@ then
   else
     echo fruit does not exist
   fi
+
+if [ "$quantity" -gt 99 ]
+then
+  echo 'Mango  price' - 100rs/kg
+  else
+    echo mango price -150rs/kg
+    fi
