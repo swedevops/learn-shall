@@ -1,6 +1,12 @@
 fruitname=$1
 quantity=$2
 
+if [ -z "$fruitname" ]
+then
+  echo input missing
+  exit
+  fi
+
 if [ "$fruitname" == "mango" ]
 then
   echo 'Mango  Quantity' - $quantity
