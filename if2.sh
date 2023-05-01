@@ -8,7 +8,7 @@ then
     fi
 
 
-if [ "$quantity" -gt 100 ]
+if [ "$quantity" -gt 99 ]
 then
   echo 'Mango  price' - 100rs/kg
   else
